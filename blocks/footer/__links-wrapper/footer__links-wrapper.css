@@ -1,0 +1,9 @@
+.footer__links-wrapper {
+  display: flex;
+  width: 45%;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
