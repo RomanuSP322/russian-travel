@@ -5,6 +5,19 @@
 .header {
   display: flex;
   justify-content: space-between;
-  max-width: 1184px;
-  margin: 28px auto 0;
+  max-width: 100%;
+  padding: 28px 48px 0;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 768) {
+  .header {
+    padding: 28px 24px 0;
+  }
+}
+
+@media screen and (max-width: 560) {
+  .header {
+    padding: 16px 16px 0;
+  }
 }

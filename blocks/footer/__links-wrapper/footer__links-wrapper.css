@@ -1,9 +1,12 @@
 .footer__links-wrapper {
-  display: flex;
-  width: 45%;
-  flex-direction: row;
-  list-style-type: none;
-  justify-content: space-between;
+  display: flex;    
   padding: 0;
   margin: 0;
+}
+
+@media screen and (max-width: 690px) {
+  .footer__links-wrapper {
+    width: 100%;
+    flex-direction: column;   
+  }
 }

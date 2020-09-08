@@ -8,9 +8,10 @@
   background-image: url(../../images/cover__background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 740px;
-  max-width: 1184px;
-  margin: 0 auto;  
+  background-position: center;
+  max-width: 100%;
+  min-height: 720px;
+  margin: 0 48px;  
 }
 
 .cover::before {
@@ -28,3 +29,26 @@
 .cover:hover::before {
   opacity: 0.3;
 }
+
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    min-height: 640px;
+    margin:0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    min-height: 480px;
+    margin:0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover {
+    min-height: 200px;
+    margin:0;
+  }
+}
+
