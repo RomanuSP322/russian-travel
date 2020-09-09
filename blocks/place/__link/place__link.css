@@ -4,8 +4,10 @@
   font-size: 18px;
   line-height: 22px;
   color: #FFF;
+  transition: opacity 0.3s; 
 }
 
 .place__link:hover {
   cursor: pointer;
+  opacity: 0.6;
 }
