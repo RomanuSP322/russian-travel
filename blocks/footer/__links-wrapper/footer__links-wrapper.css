@@ -1,12 +1,16 @@
 .footer__links-wrapper {
-  display: flex;    
+  display: flex;
+  flex-direction: row; 
   padding: 0;
   margin: 0;
+  list-style-type: none;
+  gap: 18px;  
 }
 
 @media screen and (max-width: 690px) {
   .footer__links-wrapper {
     width: 100%;
-    flex-direction: column;   
+    flex-direction: column;    
+    gap:32px;   
   }
 }

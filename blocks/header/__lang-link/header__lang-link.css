@@ -11,10 +11,6 @@
   margin: 0px 0px 0px 18px;
 }
 
-.header__lang-link:focus {
-  text-decoration: underline;
-}
-
 @media screen and (max-width: 540px) {
   .header__lang-link {
     font-size: 18px;
